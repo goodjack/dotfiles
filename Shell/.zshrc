@@ -87,13 +87,22 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 export GPG_TTY=${TTY}
 
 #### Alias
+alias bttag=
+alias btip=
+alias btprod=
+alias btec2=
 alias sail='bash vendor/bin/sail'
+alias reset-staging=
+alias reset-demo=
 alias myip='curl checkip.amazonaws.com'
 
 #### AWS MSSH
 function mssh() {
     command mssh ubuntu@${1}
 }
+
+#### Powerlevel10k
+ZLE_RPROMPT_INDENT=0
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -104,3 +113,4 @@ test -e /Users/goodjack/.iterm2_shell_integration.zsh && source /Users/goodjack/
 # less with source-highlight
 export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
+export HOMEBREW_GITHUB_API_TOKEN=
