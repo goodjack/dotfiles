@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @see https://github.com/matt-allan/laravel-code-style/blob/main/src/Dev/GenerateRules.php
+ * @see https://github.com/Jubeki/laravel-code-style/blob/main/src/Dev/GenerateRules.php
  * @see https://gist.github.com/laravel-shift/cab527923ed2a109dda047b97d53c200
  * @see https://mlocati.github.io/php-cs-fixer-configurator/
  */
@@ -54,6 +54,7 @@ $laravelRules = [
     'array_indentation' => true,
 
     // binary_operator_spaces
+    // NOTE: with unalign_equals
     'binary_operator_spaces' => [
         'default' => 'single_space',
         // equivalent to not having the align_double_arrow
@@ -80,7 +81,10 @@ $laravelRules = [
     'cast_spaces' => true,
 
     // class_definition
-    // NOTE: same as PSR-12
+    // NOTE: follow PSR-12 (psr12_class_definition)
+
+    // class_reference_name_casing
+    'class_reference_name_casing' => true,
 
     // clean_namespace
     'clean_namespace' => true,
@@ -89,7 +93,7 @@ $laravelRules = [
     // NOTE: same as PSR-12
 
     // concat_without_spaces
-    // NOTE: follow PSR-12
+    // NOTE: follow PSR-12 (concat_with_spaces)
     // 'concat_space' => [
     //     'spacing' => 'none',
     // ],
@@ -131,8 +135,16 @@ $laravelRules = [
     // indentation
     // NOTE: same as PSR-12
 
+    // integer_literal_case
+    'integer_literal_case' => true,
+
     // laravel_braces
-    // NOTE: follow PSR-12
+    // NOTE: follow PSR-12 (psr12_braces)
+
+    // laravel_phpdoc_alignment
+    // laravel_phpdoc_order
+    // laravel_phpdoc_separation
+    // NOTE: not available yet
 
     // lowercase_cast
     // NOTE: same as PSR-12
@@ -153,7 +165,7 @@ $laravelRules = [
     'magic_method_casing' => true,
 
     // method_argument_space
-    // NOTE: follow PSR-12
+    // NOTE: follow PSR-12 (method_argument_space_strict)
 
     // method_separation
     'class_attributes_separation' => [
@@ -225,6 +237,9 @@ $laravelRules = [
     // no_singleline_whitespace_before_semicolons
     'no_singleline_whitespace_before_semicolons' => true,
 
+    // no_space_around_double_colon
+    // NOTE: same as PSR-12
+
     // no_spaces_after_function_name
     // NOTE: same as PSR-12
 
@@ -244,6 +259,9 @@ $laravelRules = [
     // no_trailing_comma_in_singleline_array
     'no_trailing_comma_in_singleline_array' => true,
 
+    // no_trailing_comma_in_singleline_function_call
+    'no_trailing_comma_in_singleline_function_call' => true,
+
     // no_trailing_whitespace
     // NOTE: same as PSR-12
 
@@ -255,6 +273,9 @@ $laravelRules = [
 
     // no_unneeded_curly_braces
     'no_unneeded_curly_braces' => true,
+
+    // no_unneeded_import_alias
+    'no_unneeded_import_alias' => true,
 
     // no_unset_cast
     'no_unset_cast' => true,
@@ -409,6 +430,11 @@ $laravelRules = [
 
     // unary_operator_spaces
     'unary_operator_spaces' => true,
+
+    // union_type_without_spaces
+    'types_spaces' => [
+        'space' => 'none',
+    ],
 
     // unix_line_endings
     // NOTE: same as PSR-12
