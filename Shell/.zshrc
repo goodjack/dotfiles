@@ -79,26 +79,40 @@ export DOCKER_BUILDKIT=1
 export COMPOSE_DOCKER_CLI_BUILD=1
 
 #### Google Cloud SDK
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+# source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 
 #### Git GPG
 # https://unix.stackexchange.com/questions/608842/zshrc-export-gpg-tty-tty-says-not-a-tty
 export GPG_TTY=${TTY}
 
 #### Alias
+
+##### Boostime
 alias bttag=
 alias btip=
+alias btrds=
 alias btprod=
 alias btec2=
+
+##### Goodrive
+alias gdtag=
+alias gdprod=
+alias gdec2=
+
 alias sail='bash vendor/bin/sail'
 alias reset-staging=
 alias reset-demo=
 alias myip='curl checkip.amazonaws.com'
+alias poe='poetry run'
 
 #### AWS MSSH
 function mssh() {
     command mssh ubuntu@${1}
+}
+
+function rmssh() {
+    command mssh root@${1}
 }
 
 #### Powerlevel10k
@@ -106,11 +120,17 @@ ZLE_RPROMPT_INDENT=0
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="/usr/local/opt/php@7.4/bin:$PATH"
-export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+export PATH="/usr/local/opt/php@8.1/bin:$PATH"
+export PATH="/usr/local/opt/php@8.1/sbin:$PATH"
 test -e /Users/goodjack/.iterm2_shell_integration.zsh && source /Users/goodjack/.iterm2_shell_integration.zsh || true
 
 # less with source-highlight
 export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 export HOMEBREW_GITHUB_API_TOKEN=
+
+# VSCode Terminal Shell Integration
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+# opt out of Homebrew’s analytics
+export HOMEBREW_NO_ANALYTICS=1
