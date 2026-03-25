@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(gh api:*)",
+      "Bash(gh pr checkout:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh pr view:*)",
+      "Bash(git checkout:*)",
+      "Bash(git fetch:*)",
+      "Bash(git log:*)",
+      "Bash(git push:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git stash:*)",
+      "Bash(grep:*)",
+      "Bash(make:*)",
+      "Bash(git grep:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "default"
+  },
+  "model": "opus[1m]",
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccusage statusline"
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": false,
+    "frontend-design@claude-plugins-official": false,
+    "context7@claude-plugins-official": true,
+    "github@claude-plugins-official": false,
+    "feature-dev@claude-plugins-official": false,
+    "code-review@claude-plugins-official": false,
+    "commit-commands@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": false,
+    "agent-sdk-dev@claude-plugins-official": false,
+    "pyright-lsp@claude-plugins-official": true,
+    "plugin-dev@claude-plugins-official": true,
+    "hookify@claude-plugins-official": false,
+    "greptile@claude-plugins-official": false,
+    "learning-output-style@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "superpowers@superpowers-marketplace": true,
+    "skill-creator@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "atlassian@claude-plugins-official": true,
+    "code-review@goodjack-claude-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "goodjack-claude-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "goodjack/claude-marketplace"
+      }
+    }
+  },
+  "language": "台灣正體中文",
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "autoUpdatesChannel": "latest",
+  "feedbackSurveyState": {
+    "lastShownTime": 1754087043719
+  }
+}

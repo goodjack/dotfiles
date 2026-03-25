@@ -1,0 +1,22 @@
+[user]
+	email = goodjack@users.noreply.github.com
+	name = Jack Lin
+	signingKey = 2A4C360A2B5AC83D9D6448EF9F7F7DF54E571E87
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[core]
+	excludesfile = /Users/jack.lin/.gitignore
+[gpg]
+	format = openpgp
+	program = gpg
+[gpg "ssh"]
+	program = 
+	allowedSignersFile = 
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -1,0 +1,5 @@
+model = "gpt-5.4"
+model_reasoning_effort = "xhigh"
+personality = "pragmatic"
+[projects."/Users/jack.lin/GitRepos/104-profile-api"]
+trust_level = "trusted"

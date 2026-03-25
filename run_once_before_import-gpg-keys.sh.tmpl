@@ -1,0 +1,17 @@
+#!/bin/sh
+# Import GPG keys from Bitwarden on first chezmoi apply
+
+if ! gpg --list-secret-keys 9F7F7DF54E571E87 > /dev/null 2>&1; then
+    echo "Importing GPG keys from Bitwarden..."
+
+    # Public key
+    echo '{{ (bitwarden "item" "dotfiles/gpg-public").notes }}' | gpg --import
+
+    # Secret key
+    echo '{{ (bitwarden "item" "dotfiles/gpg-secret").notes }}' | gpg --import
+
+    # Trust
+    echo '{{ (bitwarden "item" "dotfiles/gpg-trust").notes }}' | gpg --import-ownertrust
+
+    echo "GPG keys imported."
+fi

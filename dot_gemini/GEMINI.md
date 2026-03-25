@@ -1,0 +1,1 @@
+請依循 @~/.claude/CLAUDE.md 的規則
