@@ -1,0 +1,20 @@
+#!/bin/sh
+# Restore macOS app preferences from exported plists
+
+# Amphetamine
+if [ -f "${HOME}/.config/macos-defaults/Amphetamine.plist" ]; then
+    defaults import com.if.Amphetamine "${HOME}/.config/macos-defaults/Amphetamine.plist"
+    echo "Restored Amphetamine preferences"
+fi
+
+# BreakTimer
+if [ -f "${HOME}/.config/macos-defaults/BreakTimer.plist" ]; then
+    defaults import com.tomjwatson.breaktimer "${HOME}/.config/macos-defaults/BreakTimer.plist"
+    echo "Restored BreakTimer preferences"
+fi
+
+# BetterTouchTool (plist part)
+if [ -f "${HOME}/.config/macos-defaults/BetterTouchTool.plist" ]; then
+    defaults import com.hegenberg.BetterTouchTool "${HOME}/.config/macos-defaults/BetterTouchTool.plist"
+    echo "Restored BetterTouchTool preferences"
+fi

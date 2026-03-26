@@ -1,0 +1,94 @@
+{
+	"settings": {
+		"autoLaunch": true,
+		"breaksEnabled": true,
+		"notificationType": "POPUP",
+		"breakFrequencySeconds": 1200,
+		"breakLengthSeconds": 20,
+		"postponeLengthSeconds": 180,
+		"postponeLimit": 0,
+		"workingHoursEnabled": false,
+		"workingHoursMonday": {
+			"enabled": true,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursTuesday": {
+			"enabled": true,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursWednesday": {
+			"enabled": true,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursThursday": {
+			"enabled": true,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursFriday": {
+			"enabled": true,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursSaturday": {
+			"enabled": false,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"workingHoursSunday": {
+			"enabled": false,
+			"ranges": [
+				{
+					"fromMinutes": 540,
+					"toMinutes": 1080
+				}
+			]
+		},
+		"idleResetEnabled": true,
+		"idleResetLengthSeconds": 295,
+		"idleResetNotification": true,
+		"soundType": "NONE",
+		"breakSoundVolume": 1,
+		"breakTitle": "眼睛休息",
+		"breakMessage": "每 20 分望遠 20 秒",
+		"backgroundColor": "#16a085",
+		"textColor": "#ffffff",
+		"showBackdrop": true,
+		"backdropOpacity": 0.7,
+		"endBreakEnabled": true,
+		"skipBreakEnabled": false,
+		"postponeBreakEnabled": true,
+		"immediatelyStartBreaks": false,
+		"backdropColor": "#001914"
+	},
+	"appInitialized": true,
+	"settingsVersion": 2,
+	"disableEndTime": null
+}
