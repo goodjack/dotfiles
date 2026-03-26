@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "plugins": {
+    "agent-sdk-dev@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/agent-sdk-dev/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "pr-review-toolkit@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/pr-review-toolkit/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "commit-commands@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/commit-commands/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "feature-dev@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/feature-dev/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "security-guidance@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/security-guidance/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "code-review@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/code-review/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "explanatory-output-style@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/explanatory-output-style/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "learning-output-style@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/learning-output-style/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-11-05T01:37:11.159Z",
+        "lastUpdated": "2025-11-05T01:37:11.159Z",
+        "gitCommitSha": "b42fd9928c8f80ead5ca43e4e0673da22faca6bd"
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/thedotmack/claude-mem/7.0.3",
+        "version": "7.0.3",
+        "installedAt": "2025-12-11T07:39:02.304Z",
+        "lastUpdated": "2025-12-11T07:39:02.304Z",
+        "gitCommitSha": "679a077f9bc2c4f3c7a29f0f64ae034980f1bc83"
+      }
+    ],
+    "frontend-design@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/frontend-design/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-10T07:34:33.985Z",
+        "lastUpdated": "2026-01-10T07:34:33.985Z",
+        "gitCommitSha": "4f18698a9ed25517861a75125b526e319bcf8354"
+      }
+    ],
+    "hookify@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/hookify/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-10T07:34:33.985Z",
+        "lastUpdated": "2026-01-10T07:34:33.985Z",
+        "gitCommitSha": "4f18698a9ed25517861a75125b526e319bcf8354"
+      }
+    ],
+    "plugin-dev@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/plugin-dev/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-10T07:34:33.985Z",
+        "lastUpdated": "2026-01-10T07:34:33.985Z",
+        "gitCommitSha": "4f18698a9ed25517861a75125b526e319bcf8354"
+      }
+    ],
+    "ralph-wiggum@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-code-plugins/ralph-wiggum/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-10T07:34:33.985Z",
+        "lastUpdated": "2026-01-10T07:34:33.985Z",
+        "gitCommitSha": "4f18698a9ed25517861a75125b526e319bcf8354"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/frontend-design/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.363Z",
+        "lastUpdated": "2026-03-23T07:37:59.521Z"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/context7/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.411Z",
+        "lastUpdated": "2026-03-23T07:37:59.503Z"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/github/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.445Z",
+        "lastUpdated": "2026-03-23T07:37:59.514Z"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/feature-dev/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.479Z",
+        "lastUpdated": "2026-03-23T07:37:59.538Z"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/code-review/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.514Z",
+        "lastUpdated": "2026-03-23T07:37:59.520Z"
+      }
+    ],
+    "commit-commands@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/commit-commands/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.548Z",
+        "lastUpdated": "2026-03-23T07:37:59.535Z"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/security-guidance/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.582Z",
+        "lastUpdated": "2026-03-23T07:37:59.522Z"
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.616Z",
+        "lastUpdated": "2026-03-23T07:37:59.542Z"
+      }
+    ],
+    "agent-sdk-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/agent-sdk-dev/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.647Z",
+        "lastUpdated": "2026-03-23T07:37:59.526Z"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-10T07:36:26.680Z",
+        "lastUpdated": "2026-01-10T07:36:26.680Z"
+      }
+    ],
+    "plugin-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/plugin-dev/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.728Z",
+        "lastUpdated": "2026-03-23T07:37:59.629Z"
+      }
+    ],
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/hookify/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.773Z",
+        "lastUpdated": "2026-03-23T07:37:59.587Z"
+      }
+    ],
+    "greptile@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/greptile/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.812Z",
+        "lastUpdated": "2026-03-23T07:37:59.516Z"
+      }
+    ],
+    "learning-output-style@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/learning-output-style/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-01-10T07:36:26.846Z",
+        "lastUpdated": "2026-03-23T07:37:59.519Z"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-10T07:36:26.883Z",
+        "lastUpdated": "2026-01-10T07:36:26.883Z"
+      }
+    ],
+    "superpowers@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/superpowers-marketplace/superpowers/4.1.1",
+        "version": "4.1.1",
+        "installedAt": "2026-01-26T05:20:29.670Z",
+        "lastUpdated": "2026-01-26T05:20:29.670Z",
+        "gitCommitSha": "469a6d81ebb8b827e284d4afb090c6c622d97747"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/skill-creator/61c0597779bd",
+        "version": "61c0597779bd",
+        "installedAt": "2026-03-03T03:01:23.027Z",
+        "lastUpdated": "2026-03-23T07:37:59.580Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5",
+        "version": "5.0.5",
+        "installedAt": "2026-03-03T03:01:47.173Z",
+        "lastUpdated": "2026-03-18T01:28:04.301Z",
+        "gitCommitSha": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
+      }
+    ],
+    "atlassian@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/claude-plugins-official/atlassian/385c1469c567",
+        "version": "385c1469c567",
+        "installedAt": "2026-03-03T03:02:06.701Z",
+        "lastUpdated": "2026-03-11T02:53:57.305Z",
+        "gitCommitSha": "5fa435362b2c2a1de6199e5373757854663df530"
+      }
+    ],
+    "code-review@goodjack-claude-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jack.lin/.claude/plugins/cache/goodjack-claude-marketplace/code-review/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-03-18T10:58:09.815Z",
+        "lastUpdated": "2026-03-18T10:58:09.815Z",
+        "gitCommitSha": "b06cf08041861f0a9369accc9a1948a883dce909"
+      }
+    ]
+  }
+}

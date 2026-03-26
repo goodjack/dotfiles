@@ -1,0 +1,377 @@
+{
+  "auto-close-tag.fullMode": true,
+  "editor.lineHeight": 30,
+  "editor.renderWhitespace": "boundary",
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "emmet.triggerExpansionOnTab": true,
+  "files.trimTrailingWhitespace": true,
+  "guides.active.color.dark": "rgba(120, 120, 120, 0.75)",
+  "guides.normal.style": "none",
+  "guides.stack.enabled": false,
+  "php.suggest.basic": false,
+  "php.validate.run": "onSave",
+  "php-cs-fixer.onsave": true,
+  "php-docblocker.returnGap": true,
+  "python.formatting.provider": "black",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+  "sync.gist": "6906db2ee248a5bfca131bb605fa76ff",
+  "sync.quietSync": true,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 16,
+  "window.openFilesInNewWindow": "on",
+  "workbench.colorTheme": "Atom One Light",
+  "breadcrumbs.enabled": true,
+  "phpcs.standard": "PSR12",
+  "php-cs-fixer.lastDownload": 1749450948037,
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "alt-editor.name": "phpstorm",
+  "alt-editor.binary": "phpstorm",
+  "alt-editor.args": "--args --line {line} {filename}",
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "editor.rulers": [80, 120],
+  "git.autofetch": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "php-docblocker.useShortNames": true,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.fontSize": 16,
+  "namespaceResolver.sortAlphabetically": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "Apim",
+    "Arrayable",
+    "Boostime",
+    "boto",
+    "buser",
+    "Canonicalizing",
+    "cust",
+    "CUSTPROFILE",
+    "dramatiq",
+    "ERBRAND",
+    "evps",
+    "fastapi",
+    "goodjack",
+    "Heybar",
+    "hmall",
+    "hubspot",
+    "isouter",
+    "Itemable",
+    "joinedload",
+    "Laradock",
+    "Laravel",
+    "Linktree",
+    "Lofiland",
+    "loggable",
+    "mdmkey",
+    "mytaiwantour",
+    "mytalent",
+    "nabi",
+    "newebpay",
+    "numerify",
+    "outerjoin",
+    "paginator",
+    "PERSONALBRAND",
+    "pids",
+    "pydantic",
+    "reguard",
+    "Responsable",
+    "resumeclinic",
+    "RETURNID",
+    "SCIST",
+    "selectinload",
+    "sqlalchemy",
+    "stockout",
+    "TALENTFARM",
+    "testdox",
+    "tqdm",
+    "typehint",
+    "unfollow",
+    "unguard",
+    "UNIQLO",
+    "UNPROCESSABLE",
+    "unvoided",
+    "vacc",
+    "webpoc"
+  ],
+  "files.associations": {
+    "env": "dotenv",
+    "*.conf.template": "NGINX"
+  },
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "todo-tree.tree.showScanModeButton": true,
+  "gitlens.blame.heatmap.location": "left",
+  "gitlens.blame.highlight.locations": ["gutter", "line"],
+  "gitlens.blame.ignoreWhitespace": true,
+  "gitlens.menus": {
+    "editor": false,
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorTab": false,
+    "explorer": false,
+    "scmGroup": false,
+    "scmItem": false
+  },
+  "bookmarks.showCommandsInContextMenu": false,
+  "cSpell.showCommandsInEditorContextMenu": false,
+  "gitlens.views.repositories.files.layout": "list",
+  "php-cs-fixer.allowRisky": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.list.horizontalScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "tailwindCSS.includeLanguages": {
+    "blade": "html"
+  },
+  "phpcs.executablePath": "/Users/goodjack/.composer/vendor/bin/phpcs",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "githubPullRequests.fileListLayout": "tree",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.docx": "default"
+  },
+  "phpmd.rules": "${workspaceFolder}/phpmd.xml",
+  "editor.inlineSuggest.enabled": true,
+  "liveshare.presence": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "editor.inlayHints.fontFamily": "FiraCodeNFM-Ret, Menlo, Monaco, 'Courier New', monospace",
+  "[dotenv]": {},
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "redhat.telemetry.enabled": false,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "editor.suggest.localityBonus": true,
+  "gitlens.defaultDateFormat": "YYYY-MM-DD ddd a h:mm",
+  "gitlens.defaultTimeFormat": "a h:mm",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  "explorer.confirmDelete": false,
+  "gitlens.defaultDateLocale": "zh-Hant-TW",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.gpuAcceleration": "off",
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "editor.unicodeHighlight.includeComments": false,
+  "intelephense.telemetry.enabled": false,
+  "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist;/Users/goodjack/GitRepos/configs-and-dotfiles/PHP/php-cs-fixer.dist.php;/Users/goodjack/GitRepos/configs-and-dotfiles/PHP/php_cs.dist",
+  "discord.detailsEditing": "Editing {workspace}",
+  "githubPullRequests.pullBranch": "never",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "FiraCodeNFM-Ret",
+  "editor.fontLigatures": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "gitlens.autolinks": [
+    {
+      "prefix": "CU-",
+      "url": "https://app.clickup.com/t/<num>",
+      "alphanumeric": false,
+      "ignoreCase": false
+    },
+    {
+      "prefix": "TALENTFARM-",
+      "url": "https://104corp.atlassian.net/browse/TALENTFARM-<num>",
+      "alphanumeric": false
+    }
+  ],
+  "gitlens.codeLens.enabled": false,
+  "editor.stickyScroll.maxLineCount": 8,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hant": true
+  },
+  "editor.defaultColorDecorators": "auto",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.editor.tabSizing": "shrink",
+  "githubPullRequests.queries": [
+    {
+      "label": "Local Pull Request Branches",
+      "query": "default"
+    },
+    {
+      "label": "Waiting For My Review",
+      "query": "repo:${owner}/${repository} is:open review-requested:${user}"
+    },
+    {
+      "label": "All Open",
+      "query": "default"
+    }
+  ],
+  "githubPullRequests.defaultCommentType": "review",
+  "githubPullRequests.notifications": "pullRequests",
+  "githubPullRequests.quickDiff": true,
+  "githubPullRequests.showPullRequestNumberInTree": true,
+  "github.gitProtocol": "ssh",
+  "laravel_jump_controller.pathController": "/app/Http/Controllers",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "sqltools.highlightQuery": false,
+  "sqltools.format": {
+    "reservedWordCase": "upper"
+  },
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "black-formatter.args": ["--line-length=120"],
+  "flake8.args": ["--max-line-length=120"],
+  "telemetry.telemetryLevel": "off",
+  "python.defaultInterpreterPath": "/Users/jack.lin/GitRepos/104tmd-talent-api/venv",
+  "ruff.showNotifications": "onWarning",
+  "terminal.integrated.scrollback": 10000,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruff.importStrategy": "useBundled",
+  "workbench.editor.revealIfOpen": true,
+  "workbench.productIconTheme": "material-product-icons",
+  "terminal.integrated.experimentalInlineChat": true,
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "pythonIndent.trimLinesWithOnlyWhitespace": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.localeOverride": "zh-TW",
+  "bookmarks.label.suggestion": "suggestWhenSelectedOrLineWhenNoSelected",
+  "git.enableCommitSigning": true,
+  "git-graph.repository.sign.commits": true,
+  "git-graph.repository.sign.tags": true,
+  "ruff.format.preview": true,
+  "ruff.lineLength": 120,
+  "ruff.lint.preview": true,
+  "diffEditor.codeLens": true,
+  "gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "ruff.lint.args": ["--line-length=120"],
+  "ruff.format.args": ["--line-length=120"],
+  "extensions.supportUntrustedWorkspaces": {},
+  "gitlens.views.commitDetails.files.layout": "list",
+  "gitlens.ai.experimental.model": "openai:gpt-4o",
+  "diffEditor.renderSideBySide": true,
+  "editor.stickyScroll.defaultModel": "foldingProviderModel",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "ruff.lint.select": ["ALL"],
+  "python.analysis.autoImportCompletions": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput", "yaml"],
+  "workbench.activityBar.orientation": "vertical",
+  "wakatime.apiKey": "c7218f73-a1e1-4866-a678-88b66f7a5a09",
+  "wakatime.apiUrl": "https://wakapi.dev/api",
+  "chat.editor.fontSize": 20,
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  "update.releaseTrack": "prerelease",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.composer.textSizeScale": 1.15,
+  "diffEditor.experimental.showMoves": true,
+  "cursorpyright.analysis.autoImportCompletions": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "dev.containers.dockerPath": "podman"
+}
